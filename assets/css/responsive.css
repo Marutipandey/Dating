@@ -1,0 +1,185 @@
+@media (max-width: 575px) {
+    .my-item {
+        
+        flex-direction: column;
+    }
+
+    .advice-box img{
+        width: 100%;
+    }
+
+   
+    .my-toggle {
+        background: rgb(152, 151, 151) !important;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .my-item {
+        
+        flex-direction: column;
+    }
+
+    .advice-box img{
+        width: 100%;
+    }
+
+    .background {
+        height: 274px !important;
+        background-repeat: no-repeat;
+         background-size: contain !important;
+    }
+    .my-toggle {
+        background: rgb(152, 151, 151) !important;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+    .background h1 {
+        font-size: 16px !important; 
+        padding-top: 10px !important;
+        
+    }
+    .background .bg-text button {
+        padding: 10px 26px !important;
+        font-size: 12px !important;
+        margin: 0 !important;
+    }
+    .bg-text {
+        margin-top: 55px !important;
+    }
+    .about-bg{
+        
+        object-fit: cover;
+        height: 85%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+      
+        background-position: 55% center !important;
+    }
+    .about-text h1 {
+        
+        padding: 34px !important;
+        
+    }
+    .my-toggle {
+        background: rgb(152, 151, 151) !important;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+    .tour-bg{
+        
+        height: 274px !important;
+        background-repeat: no-repeat;
+         background-size: contain !important;
+    }
+    .contact-bg{
+        background-position: 60% center !important; 
+   
+    }
+    .contact-page {
+       padding: 0 !important;
+    }
+    .shadow-class {
+        
+        padding: 16px !important;
+        
+    }
+    .create-box {
+        
+        width: 91% !important;
+        
+    }
+    .box-content .question-p p {
+      
+        width: 90% !important;
+        
+    }
+    .my-com-bg{
+        background-image: url(./assets/images/completed-1-dark.png);
+    object-fit: cover;
+    height: 565px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 46% center !important;
+  
+      
+      }
+      .matches-img img {
+        /* width: 300px; */
+        width: 100% !important;
+    }
+    .front-profile .another-icon i {
+        margin: 0px 5px !important;
+        font-size: 19px !important;
+        padding: 10px !important;
+        
+    }
+    .another-icon{
+        display: block !important;
+    }
+    .user-img img {
+        
+        width: 100% !important;
+    }
+    .front-profile {
+       
+        padding: 14px !important;
+        
+    }
+    .user-img {
+        text-align: start !important;
+    }
+    .user-info{
+        margin-top: 36px;
+    }
+    .name-other-item .fa-comment-dots {
+        
+        padding: 12px 40px !important;
+        
+    }
+    .overlay {
+        
+        width: 0px;
+       }
+       .mynavigation {
+        padding: 0px !important;
+    }
+    .create-box h2 {
+        font-size: 21px !important;
+        /* margin-top: 59px !important; */
+    }
+    .create-box  {
+    
+        margin-top: 25px !important;
+    }
+    .completed-h2 {
+        margin-top: 64% !important;
+      
+    }
+    .nav-white{
+        background-color: #fff;
+    }
+    .background .navbar-brand , .about-bg .navbar-brand , .tour-bg .navbar-brand , .contact-bg .navbar-brand , .advice-page .navbar-brand{
+        color: #000 !important;
+    }
+    .background .sign a , .about-bg .sign a , .tour-bg .sign a , .contact-bg .sign a , .advice-page .sign a{
+       
+        color: #000 !important;
+    }
+    .background .my-link a , .about-bg .my-link a , .tour-bg .my-link a , .contact-bg .my-link a , .advice-page .my-link a {
+       
+        color: #000 !important;
+        
+    }
+    .advice-page {
+        height: 274px !important;
+       background-repeat: no-repeat;
+        background-size: contain !important;
+      
+    }
+}

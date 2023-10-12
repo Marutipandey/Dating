@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <title>Edit Profile - Dating App</title>
+    <style>
+      body{
+        background-color:  #f2f2f2;
+      }
+
+     
+    </style>
+</head>
+<body>
+   
+<header>
+
+    <div class="main-navigation ">
+      <nav class="navbar navbar-expand-lg my-nav bg-dark navbar-dark">
+        <div class="container">
+       
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav-left justify-content-start my-landing-link" id="navbarNav">
+            <ul class="navbar-nav nav-ul ">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="landing.html"><i class="fa-solid fa-house-chimney"></i> Home</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="matches.html"><i class="fa-solid fa-users"></i> Matches</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="message.html"><i class="fa-solid fa-comment-dots"></i> Messages</a>
+              </li>
+              
+            </ul>
+          </div>
+          <div class="dropdown">
+              <a class="profile" href=""><i class="fa-solid fa-circle-user"></i>
+             
+              <div class="dropdown-content">
+                <a href="edit-profile.html">Edit Profile</a>
+                <a href="index.html">Logout</a>
+
+              </div>
+            </div></a>
+        </div>
+      </nav>
+
+    </div>
+ 
+</header>
+
+
+<section class="front-profile">
+  
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-12">
+        <div class="main-icon-profile edit-profile image-edit">
+            <!-- <i class="fa-solid fa-circle-user">   </i> -->
+            <img src="assets/images/user-icon.png" alt="">
+            <div class="edit-pencil">
+
+              <p onclick="document.getElementById('id07').style.display='block'"
+  class=""><i class="fa-solid fa-camera"></i></p>
+            </div>
+  
+  <!-- The Modal -->
+  <div id="id07" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class=" my-span">
+      <span  onclick="document.getElementById('id07').style.display='none'"
+      class="w3-button w3-display-topright">&times;</span>
+      <div class="">
+        <input type="file" class="form-control" >
+        
+      </div>
+      <div>
+        <button class="start-free mt-3" style="margin: 0px">Save</button>
+      </div>
+    </div>
+  </div>
+  </div>
+            <h3>Hello Manu</h3>
+           
+            <div class="edit-pen">
+
+              <p onclick="document.getElementById('id01').style.display='block'"
+  class=""><i class="fa-solid fa-pencil"></i></p>
+            </div>
+  
+  <!-- The Modal -->
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class=" my-span">
+        <span  onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <div class="form-floating">
+          <input type="text" class="form-control" placeholder="Intro">
+          <label for="">Intro</label>
+        </div>
+        <div>
+          <button class="start-free mt-3" style="margin: 0px">Save</button>
+        </div>
+      </div>
+    </div>
+    </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<section class="message-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="main-box-msg">
+          <div class="msg-content-intro ">
+            <p>Introduce Yourself</p>
+          </div>
+          <div class="edit-page-intro">
+           
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, enim praesentium. Nesciunt provident assumenda rem consectetur pariatur, temporibus ad dolores.</p>
+          </div>
+          <div class="edit-intro-page">
+
+            <p onclick="document.getElementById('id06').style.display='block'"
+class=""><i class="fa-solid fa-pencil"></i></p>
+          </div>
+
+<!-- The Modal -->
+<div id="id06" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class=" my-span">
+      <span  onclick="document.getElementById('id06').style.display='none'"
+      class="w3-button w3-display-topright">&times;</span>
+      <div class="form-floating">
+        <input type="text" class="form-control" placeholder="Intro">
+        <label for="">Intro</label>
+      </div>
+      <div>
+        <button class="start-free mt-3" style="margin: 0px">Save</button>
+      </div>
+    </div>
+  </div>
+  </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="message-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="main-box-msg">
+          <div class="msg-content-intro ">
+            <p>About me</p>
+            <strong>Education</strong>
+            
+          </div>
+          <div class="edit-page-intro">
+            <p>High School</p>
+          </div>
+          <div class="msg-content-intro ">
+            <strong>Where Do you live</strong> 
+          </div>
+          <div class="edit-page-intro">
+            <p>Noida</p>
+          </div>
+            <div class="msg-content-intro ">
+            <strong>Occupation</strong> 
+          </div>
+          <div class="edit-page-intro">
+            <p>Teacher</p>
+          </div>
+          <div class="edit-intro-page">
+
+            <p onclick="document.getElementById('id05').style.display='block'"
+class="w3-button"><i class="fa-solid fa-pencil"></i></p>
+          </div>
+
+<!-- The Modal -->
+<div id="id05" class="w3-modal">
+<div class="w3-modal-content">
+  <div class=" my-span">
+    <span  onclick="document.getElementById('id05').style.display='none'"
+    class="w3-button w3-display-topright">&times;</span>
+    <div class="form-floating">
+      <input type="text" class="form-control" placeholder="About ">
+      <label for="">About </label>
+    </div>
+    <div>
+      <button class="start-free mt-3" style="margin: 0px">Save</button>
+    </div>
+  </div>
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="matches-section mb-5">
+  
+  <div class="container">
+    <div class="matches-shadow">
+       <h4>Lifestyle & Hobbies</h4>
+      <div class="row mt-3">
+        
+         <div class="col-md-2">
+          <div class="hobbies-box-edit">
+            <p>Theater</p>
+          </div>
+        </div> 
+        <div class="col-md-2">
+          <div class="hobbies-box-edit">
+            <p>Film/Video</p>
+          </div>
+        </div> 
+        <div class="col-md-2">
+          <div class="hobbies-box-edit">
+            <p>Cooking</p>
+          </div>
+        </div> 
+        <div class="col-md-2">
+          <div class="hobbies-box-edit">
+            <p>Music</p>
+          </div>
+        </div> 
+        <div class="col-md-2">
+          <div class="hobbies-box-edit">
+            <p>Photography</p>
+          </div>
+        </div>
+       
+        <div class="edit">
+
+          <p onclick="document.getElementById('id04').style.display='block'"
+  class="w3-button"><i class="fa-solid fa-pencil"></i></p>
+        </div>
+
+<!-- The Modal -->
+<div id="id04" class="w3-modal">
+<div class="w3-modal-content">
+<div class=" my-span">
+  <span  onclick="document.getElementById('id04').style.display='none'"
+  class="w3-button w3-display-topright">&times;</span>
+  <div class="form-floating">
+    <input type="text" class="form-control" placeholder="Lifstyle">
+    <label for="">Lifstyle</label>
+  </div>
+  <div>
+    <button class="start-free mt-3" style="margin: 0px">Save</button>
+  </div>
+</div>
+</div>
+</div>
+      </div>
+      <hr>
+      <div class="msg-content-intro ">
+     
+        <strong>Sports</strong>
+        
+      </div>
+      <div class="row mt-3">
+        
+        <div class="col-md-2">
+         <div class="hobbies-box-edit">
+           <p>Cricket</p>
+         </div>
+       </div> 
+       <div class="col-md-2">
+         <div class="hobbies-box-edit">
+           <p>Hockey</p>
+         </div>
+       </div> 
+      
+      
+       
+       <div class="edit">
+
+        <p onclick="document.getElementById('id03').style.display='block'"
+class="w3-button"><i class="fa-solid fa-pencil"></i></p>
+      </div>
+
+<!-- The Modal -->
+<div id="id03" class="w3-modal">
+<div class="w3-modal-content">
+<div class=" my-span">
+<span  onclick="document.getElementById('id03').style.display='none'"
+class="w3-button w3-display-topright">&times;</span>
+<div class="form-floating">
+  <input type="text" class="form-control" placeholder="Sports">
+  <label for="">Sports</label>
+ 
+</div>
+<div>
+  <button class="start-free mt-3" style="margin: 0px">Save</button>
+</div>
+</div>
+</div>
+</div>
+
+       
+     </div>
+
+     <hr>
+     <div class="msg-content-intro ">
+    
+       <strong>Food</strong>
+       
+     </div>
+     <div class="row mt-3">
+       
+       <div class="col-md-2">
+        <div class="hobbies-box-edit">
+          <p>Veg</p>
+        </div>
+      </div> 
+      <div class="col-md-2">
+        <div class="hobbies-box-edit">
+          <p>Non Veg</p>
+        </div>
+      </div> 
+     
+     
+      
+      <div class="edit">
+
+        <p onclick="document.getElementById('id02').style.display='block'"
+class="w3-button"><i class="fa-solid fa-pencil"></i></p>
+      </div>
+
+<!-- The Modal -->
+<div id="id02" class="w3-modal">
+<div class="w3-modal-content">
+<div class=" my-span">
+<span  onclick="document.getElementById('id02').style.display='none'"
+class="w3-button w3-display-topright">&times;</span>
+<div class="form-floating">
+  <input type="text" class="form-control" placeholder="Food">
+  <label for="">Food</label>
+
+</div>
+<div>
+  <button class="start-free mt-3" style="margin: 0px">Save</button>
+</div>
+</div>
+</div>
+</div>
+      
+    </div>
+    </div>
+  </div>
+</section>
+
+
+      <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+
+  </script>
+</body>
+</html>
